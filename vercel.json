@@ -1,16 +1,7 @@
 {
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
   "installCommand": "npm ci",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": "@exploresen-url"
-  },
-  "redirects": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    }
-  ],
+  "devCommand": "npm run dev",
   "headers": [
     {
       "source": "/(.*)",

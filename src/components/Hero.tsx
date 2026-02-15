@@ -12,7 +12,7 @@ export default function Hero() {
             Découvrez la Magie du Sénégal
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Des expériences touristiques inoubliables qui célèbrent la culture, la nature et l'histoire captivante du Sénégal
+            Des expériences touristiques inoubliables qui célèbrent la culture, la nature et l&apos;histoire captivante du Sénégal
           </p>
         </div>
 

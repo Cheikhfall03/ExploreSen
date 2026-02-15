@@ -49,7 +49,7 @@ export default function Footer() {
             <p>&copy; 2024 ExploreSen Sénégal. Tous droits réservés.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white transition">Politique de Confidentialité</a>
-              <a href="#" className="hover:text-white transition">Conditions d'Utilisation</a>
+              <a href="#" className="hover:text-white transition">Conditions d&apos;Utilisation</a>
             </div>
           </div>
         </div>

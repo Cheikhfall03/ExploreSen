@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 
@@ -12,12 +12,16 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
   title: 'ExploreSen - Découvrez le Sénégal',
   description: 'Vivez des expériences touristiques inoubliables au Sénégal avec ExploreSen. Tours de Gorée, Safari à Bandia, et bien plus encore.',
   keywords: 'Sénégal, Tours, Gorée, Safari, Excursions, Tourisme',
   authors: [{ name: 'ExploreSen' }],
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
 };
 
