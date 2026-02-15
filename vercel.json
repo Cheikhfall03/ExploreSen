@@ -2,12 +2,9 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm ci",
-  "env": [
-    {
-      "key": "NEXT_PUBLIC_SITE_URL",
-      "value": "@exploresen-url"
-    }
-  ],
+  "env": {
+    "NEXT_PUBLIC_SITE_URL": "@exploresen-url"
+  },
   "redirects": [
     {
       "source": "/api/(.*)",
