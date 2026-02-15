@@ -1,0 +1,12 @@
+.git
+.gitignore
+README.md
+*.md
+.env.example
+.env.local
+.env.development
+.DS_Store
+node_modules/
+.next/
+coverage/
+.eslintcache

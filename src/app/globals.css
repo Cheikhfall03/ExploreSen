@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-ocean-blue text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-tropical text-white rounded-lg font-semibold hover:bg-emerald-600 transition-colors duration-300;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-gray-900 mb-4;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-2xl hover:scale-105;
+  }
+}
