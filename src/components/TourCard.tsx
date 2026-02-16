@@ -2,6 +2,7 @@
 
 import { Tour } from '@/lib/tours';
 import { useState } from 'react';
+import Image from 'next/image';
 
 interface TourCardProps {
   tour: Tour;
@@ -12,8 +13,14 @@ export default function TourCard({ tour }: TourCardProps) {
 
   return (
     <div className="card-hover bg-white rounded-2xl overflow-hidden shadow-lg h-full flex flex-col">
-      <div className="h-40 bg-gradient-to-r from-gray-100 to-gray-200 flex items-center justify-center text-6xl">
-        {tour.icon}
+      <div className="relative h-64 w-full">
+        <Image
+          src={tour.image}
+          alt={tour.title}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
       </div>
 
       <div className="p-6 flex-1 flex flex-col">

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +10,14 @@ export default function NavBar() {
     <nav className="sticky top-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-2">
-            <span className="text-2xl">🌍</span>
+          <div className="flex items-center space-x-3">
+            <Image
+              src="/logo.jpeg"
+              alt="ExploreSen Logo"
+              width={40}
+              height={40}
+              className="rounded-full"
+            />
             <span className="text-xl font-bold text-ocean-blue">ExploreSen</span>
           </div>
 

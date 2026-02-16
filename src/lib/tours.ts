@@ -1,6 +1,7 @@
 export interface Tour {
   id: number;
   icon: string;
+  image: string;
   title: string;
   price: string;
   description: string;
@@ -13,6 +14,7 @@ export const tours: Tour[] = [
   {
     id: 1,
     icon: '🌊',
+    image: '/ile-de-goree.jpg',
     title: 'Île de Gorée – Histoire & Émotion',
     price: '25 000 FCFA / personne',
     description: 'Plongez dans l\'histoire fascinante de Gorée, classée au patrimoine mondial de l\'UNESCO. Entre ruelles colorées, maisons coloniales et vue imprenable sur l\'océan, cette excursion est une immersion culturelle forte et inoubliable.',
@@ -29,6 +31,7 @@ export const tours: Tour[] = [
   {
     id: 2,
     icon: '🦒',
+    image: '/bandia.jpeg',
     title: 'Réserve de Bandia – Safari au Sénégal',
     price: '35 000 FCFA / personne',
     description: 'Vivez une expérience safari unique à quelques kilomètres de Dakar. Observez girafes, rhinocéros, zèbres et antilopes dans leur habitat naturel.',
@@ -43,6 +46,7 @@ export const tours: Tour[] = [
   {
     id: 3,
     icon: '🐚',
+    image: '/joal.jpeg',
     title: 'Île de Fadiouth – L\'île aux coquillages',
     price: '20 000 FCFA / personne',
     description: 'Découvrez l\'île construite sur des coquillages, symbole de coexistence religieuse et de paix. Une escapade authentique entre tradition, culture et paysages uniques.',
@@ -57,6 +61,7 @@ export const tours: Tour[] = [
   {
     id: 4,
     icon: '🌿',
+    image: '/sine-saloum.jpeg',
     title: 'Sine-Saloum – Nature & Évasion',
     price: '30 000 FCFA / personne',
     description: 'Partez à la découverte des bolongs du Sine-Saloum, classé réserve de biosphère. Entre mangroves, pirogue et villages traditionnels, vivez une expérience paisible et immersive.',
@@ -72,6 +77,7 @@ export const tours: Tour[] = [
   {
     id: 5,
     icon: '🌸',
+    image: '/le-lac-rose.jpg',
     title: 'Lac Rose – Sensations & Paysage Unique',
     price: '28 000 FCFA / personne',
     description: 'Découvrez l\'un des sites les plus emblématiques du Sénégal : le célèbre Lac Rose, connu pour ses reflets uniques et son ancienne arrivée du rallye Paris-Dakar. Entre balade en 4x4 sur les dunes, découverte de l\'extraction traditionnelle du sel et vue spectaculaire sur le lac.',
